@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS</title>
+    <link rel="stylesheet" href="stylesheet.css">
+
+    
+</head>
+<body>
+
+    <header>
+    <h1 id="title">Rock - Paper - Scissors SHOOT!!!</h1>
+    <img id="imgtitle" src="media/giphytitle.GIF" alt="simpsons rock paper scissors" title="RPS simpsons">
+</header>
+
+
+
+    <section id="choices">
+        <button  onclick="rock()" class="choice" id="Rock">🪨</button>
+        <button  onclick="paper()" class="choice" id="paper">📃</button>
+        <button  onclick="Scissors()" class="choice"  id="Scissors">✂️</button>
+    </section>
+    <h3 id="scr">SCORE:</h3>
+    <section id="scores">
+        <div id="P">
+        <h3 class="score" id="human">You: </h3>
+            <p id="scoreH">0</p>
+         </div>
+        <div id="A">
+            <h3 class="score" id="Ai">AI:</h3>
+            <p id="scoreA">0</p></div>
+        <div id="S">
+            <h3 class="score" id="choice">🤖:</h3>
+            <p id="choiceA"></p>
+        </div>
+    </section>
+    <section id="resultsupd">
+    <div id="res"> <h3 id="result"></h3></div>
+    <img id ="imgresult" src="" alt="">
+</section>
+    <script src="index.js"></script>
+</body>
+</html>
