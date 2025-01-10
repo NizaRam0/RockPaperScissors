@@ -4,16 +4,19 @@
     }
 
     #title {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     #imgtitle {
-        width: 50%;
+        width: 30%;
     }
 
     .choice {
         width: 24%;
         font-size: 200%;
+        display:flex;
+        align-items:center;
+        justify-content:center;
     }
 
     #scores {
@@ -32,7 +35,7 @@
     }
 
     #imgresult {
-        width: 50%;
+        width: 70%;
     }
 
     header {
@@ -44,6 +47,12 @@
         gap: 10px;
     }
 }
+
+
+
+
+
+
 
 
 
@@ -90,6 +99,9 @@ header{
     width: 16%;
     min-height: 4%;
     font-size: 400%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
     
 
