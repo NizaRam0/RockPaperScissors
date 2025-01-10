@@ -1,3 +1,49 @@
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 12px;
+    }
+
+    #title {
+        font-size: 24px;
+    }
+
+    #imgtitle {
+        width: 50%;
+    }
+
+    .choice {
+        width: 24%;
+        font-size: 200%;
+    }
+
+    #scores {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    #P, #A, #S {
+        margin-bottom: 10px;
+    }
+
+    #res {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #imgresult {
+        width: 50%;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    #choices {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
 
 
 
